@@ -14,7 +14,7 @@ function App() {
     setLoading(false);
     setJobs(newFetch);
   };
-
+console.log("pera")
   useEffect(() => {
     fetchApi();
   }, []);
